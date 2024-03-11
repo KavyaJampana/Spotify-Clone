@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+div.b1{
+    background-color: #faebd7;
+}
+body{
+    background-color: #faebd7
+}
+div{
+    color:white;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bolder;
+    background-color: black;
+    padding:1%;
+    
+}
+li{
+    color:white;
+}
+.spotify{  
+    padding:0 4px;
+}
+ul li{
+    list-style-type: none;
+    padding:0 12px;
+}
+
+.center{
+    background-color: black;
+    min-height: 72vh;
+    width: 70%;
+    display:flex;
+    margin:23px auto;
+    border-radius: 12px;
+    font-family: 'Varela Round', sans-serif;
+    padding:32px;
+    flex-direction: column;
+    background-image: url('bg.jpg');
+}
+.songs_container{
+    width: 75%;
+
+}
+
+.songsitem{
+    display:flex;
+    background-color:white;
+    border-radius: 34px;
+    color:white;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.songsitem img{
+    border-radius: 76px;
+   width:43px;
+   margin :0px 23px;
+}
+.songsitem span,p{
+    color:black;
+}
+.songsitem span i{
+    color:black;
+    margin:0 23px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-bottom: 30px;
+}
+.btn{
+
+   margin-right: 10px;
+   border-radius: 50px;
+}
+
+
+
+
+
+.Footer{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 60vw; 
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+
+
+
+
+
